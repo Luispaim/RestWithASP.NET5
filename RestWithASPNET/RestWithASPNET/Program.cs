@@ -21,6 +21,7 @@ namespace RestWithASPNET
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                    Console.WriteLine("Hello");
                 });
     }
 }
